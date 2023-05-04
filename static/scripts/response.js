@@ -13,6 +13,8 @@ function getBotResponse(input) {
     return 'Hello there';
   } else if (input == 'goodbye') {
     return 'Talk to you later';
+  } else if (input == 'What is your name?') {
+    return 'my name is Chat Bot';
   } else {
     return 'Try asking something else';
   }
